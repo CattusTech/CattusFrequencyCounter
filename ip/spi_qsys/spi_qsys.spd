@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/spiphyslave.v"
+   type="VERILOG"
+   library="spislave_0" />
+ <file path="simulation/spi_qsys.v" type="VERILOG" />
+ <topLevel name="spi_qsys" />
+ <deviceFamily name="maxii" />
+</simPackage>

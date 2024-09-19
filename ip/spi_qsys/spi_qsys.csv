@@ -1,0 +1,18 @@
+# system info spi_qsys on 2024.09.20.05:54:38
+system_info:
+name,value
+DEVICE,EPM240T100C5
+DEVICE_FAMILY,MAX II
+GENERATION_ID,1726782877
+#
+#
+# Files generated for spi_qsys on 2024.09.20.05:54:38
+files:
+filepath,kind,attributes,module,is_top
+simulation/spi_qsys.v,VERILOG,,spi_qsys,true
+simulation/submodules/spiphyslave.v,VERILOG,,SPIPhy,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+spi_qsys.spislave_0,SPIPhy

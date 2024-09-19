@@ -1,0 +1,53 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\Users\AlanC\Penguin\PenguinFreqCounter2\ip\spi_qsys.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\AlanC\Penguin\PenguinFreqCounter2\ip\spi_qsys\simulation --family="MAX II" --part=EPM240T100C5
+Progress: Loading ip/spi_qsys.qsys
+Progress: Reading input file
+Progress: Adding spislave_0 [spislave 23.1]
+Progress: Parameterizing module spislave_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: spi_qsys: Generating spi_qsys "spi_qsys" for SIM_VERILOG
+Info: spislave_0: "spi_qsys" instantiated spislave "spislave_0"
+Info: spi_qsys: Done "spi_qsys" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\Users\AlanC\Penguin\PenguinFreqCounter2\ip\spi_qsys\spi_qsys.spd --output-directory=C:/Users/AlanC/Penguin/PenguinFreqCounter2/ip/spi_qsys/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\AlanC\Penguin\PenguinFreqCounter2\ip\spi_qsys\spi_qsys.spd --output-directory=C:/Users/AlanC/Penguin/PenguinFreqCounter2/ip/spi_qsys/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/AlanC/Penguin/PenguinFreqCounter2/ip/spi_qsys/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/AlanC/Penguin/PenguinFreqCounter2/ip/spi_qsys/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/AlanC/Penguin/PenguinFreqCounter2/ip/spi_qsys/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\AlanC\Penguin\PenguinFreqCounter2\ip\spi_qsys.qsys --block-symbol-file --output-directory=C:\Users\AlanC\Penguin\PenguinFreqCounter2\ip\spi_qsys --family="MAX II" --part=EPM240T100C5
+Progress: Loading ip/spi_qsys.qsys
+Progress: Reading input file
+Progress: Adding spislave_0 [spislave 23.1]
+Progress: Parameterizing module spislave_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\AlanC\Penguin\PenguinFreqCounter2\ip\spi_qsys.qsys --synthesis=VERILOG --output-directory=C:\Users\AlanC\Penguin\PenguinFreqCounter2\ip\spi_qsys\synthesis --family="MAX II" --part=EPM240T100C5
+Progress: Loading ip/spi_qsys.qsys
+Progress: Reading input file
+Progress: Adding spislave_0 [spislave 23.1]
+Progress: Parameterizing module spislave_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: spi_qsys: Generating spi_qsys "spi_qsys" for QUARTUS_SYNTH
+Info: spislave_0: "spi_qsys" instantiated spislave "spislave_0"
+Info: spi_qsys: Done "spi_qsys" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
